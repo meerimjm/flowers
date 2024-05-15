@@ -1,0 +1,14 @@
+.flofers{
+    background: url(https://kartinki.pibig.info/uploads/posts/2023-03/1680206121_kartinki-pibig-info-p-s-dnem-rozhdeniya-kartinki-mnogo-roz-arti-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 500px;
+    align-items: center;
+    color: white;
+}
+.flofers_txt{
+    text-align: center;
+    margin: o auto;
+    font-weight: bold;
+}
