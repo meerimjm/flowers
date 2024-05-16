@@ -4,3 +4,10 @@
 header{
     padding: 30px;
 }
+.logo{
+    width: 60px;
+    margin: 15px auto 0;
+}
+.header_right{
+    gap: 20px;
+}

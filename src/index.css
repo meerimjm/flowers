@@ -65,7 +65,7 @@ body{
 	font-family: 'Manrope', arial, sans-serif;
 }
 .container{
-	max-width: 1325px;
+	max-width: 1400px;
 	width: 100%;
 	min-width: 320px;
 	margin: 0 auto;
@@ -131,5 +131,5 @@ section{
 }
 
 header{
-	background: #FF0000;
+	background:#fff;
 }
