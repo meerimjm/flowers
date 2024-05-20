@@ -69,6 +69,7 @@
 }
 .card_left_ic-1{
     width: 40px;
+    margin-top: 30px;
 }
 .card_left_txt{
     width: calc(100% - 55px);
@@ -96,4 +97,9 @@
 .grey{
     background: gainsboro;
 }
-
+.card_img{
+    margin-top: 30px;
+}
+.card_left_txt{
+    margin-top: 30px;
+}

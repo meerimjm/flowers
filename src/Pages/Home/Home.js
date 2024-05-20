@@ -2,9 +2,9 @@ import './Home.css';
 import secondBlock1 from "../../imges/secondBlock1.jpg"
 import secondIc1 from "../../imges/secondIc-1.png"
 import secondIc2 from "../../imges/secondIc-2.png"
-import Bed from "../../imges/Bed.png"
+import chtor1 from "../../imges/chtor1.jpg"
 import Svg1 from "../../imges/Svg1.jpeg"
-
+import chtor2 from "../../imges/chtor2.jpg"
 function Home() {
   return (
     <>
@@ -42,7 +42,7 @@ function Home() {
                   Мы работаем индивидуально с каждым клиентом. Если у Вас есть задумка, но Вы не знаете, как ее воплотить в реальность, наши профессиональные дизайнеры легко сориентируют Вас в оформлении, помогут с выбором дизайна. И уже через короткое время Вы сможете получить  шторы своей мечты.</div>
               </div>
               <div className="card_img">
-                <img src={Bed} alt="" />
+                <img src={chtor1} alt="" />
               </div>
 
               
@@ -51,7 +51,7 @@ function Home() {
 
             <div className="card_right">
               <div className="card_img">
-                <img src={Bed} alt="" />
+                <img src={chtor2} alt="" />
               </div>
               <div className="card_item flex">
                 <div className="card_left_ic-1">

@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="Header">
       <div className="container">
-        <div className="Head flex">
+        <div className="Head flex ">
           <Menu />
           <div className="header_right flex">
             <div className="Buttons flex">
