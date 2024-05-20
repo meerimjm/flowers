@@ -20,7 +20,7 @@ function Home() {
         </div>
       </section>
 
-      <section className='second_block'>
+      <section className='second_block grey'>
         <div className="container">
           <h2 className="second_tit">ДИЗАЙНЕРСКИЕ  ШТОРЫ НА ЗАКАЗ В КАРАКОЛЕ</h2>
           <p className="second_txt">Зачем откладывать реализацию мечты на завтра?</p>
