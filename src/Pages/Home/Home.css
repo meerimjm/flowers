@@ -1,5 +1,5 @@
 .shtor{
-    background: url(../../imges/main_back.jpg) no-repeat;
+    background: url(../../imges/main_fon.jpg) no-repeat;
     width: 100%;
     height: 1000px;
 }
@@ -50,7 +50,7 @@
 
 }
 .second_block{
-    background: url(../../imges/fon.jpeg);
+    background: url();
 }
 .second_txt{
     text-align: center;
@@ -79,3 +79,18 @@
 .card_item{
     margin-bottom: 40px;
 }
+.servic_left{
+    width: 50%;
+}
+.servic_right{
+    width: 50%;
+}
+.servic_ic{
+    width: 50px;
+    float: left;
+    
+}
+.servic_item{
+    margin-bottom: 20px;
+}
+

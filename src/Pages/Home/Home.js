@@ -1,8 +1,9 @@
 import './Home.css';
-import imgSecond from "../../imges/second_img.jpg"
+import secondBlock1 from "../../imges/secondBlock1.jpg"
 import secondIc1 from "../../imges/secondIc-1.png"
 import secondIc2 from "../../imges/secondIc-2.png"
 import Bed from "../../imges/Bed.png"
+import Svg1 from "../../imges/Svg1.jpeg"
 
 function Home() {
   return (
@@ -29,7 +30,7 @@ function Home() {
               <li style="float:left;"></li>
             </ul> */}
           <div className="second_img">
-            <img src={imgSecond} alt="" />
+            <img src={secondBlock1} alt="" />
           </div>
           <div className="cards flex">
             <div className="card_left">
@@ -67,22 +68,63 @@ function Home() {
           <p className="servic_txt">Если вы искали салон мебели и штор в Бишкеке, где дизайнеры не просто создают изделия, которые закрывают Вас от окружающего мира, а создают продукцию, которая гармонирует с окружающим интерьером и выглядит так, словно это произведение искусства, то Вы оказались у нас не случайно. Для наших клиентов мы готовы предложить широкий ассортимент всевозможных мебельных гарнитур и тканей. Вы сможете выбрать их у нас на любой бюджет. Всего у нас представлено более 20 000 тканей европейских и турецких производителей, а также возможность создания, сборки любой мебели под Ваши предпочтения. ПРИГЛАШАЕМ К СОТРУДНИЧЕСТВУ СВОБОДНЫХ ДИЗАЙНЕРОВ ИНТЕРЬЕРА И МЕБЕЛИ. ДЛЯ ВАС ОЧЕНЬ ИНТЕРЕСНОЕ СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ!!!</p>
           <div className="servic_cards flex">
             <div className="servic_left">
+              <div className="servic_item">
+                <div className="servic_ic">
+                <img src="" alt="" />
+               </div>
+               <h3 className="servic_tit">Пошив и реставрация штор </h3>
+               <p className="servic_txt">Качественно создаем любую мебель и шьем шторы, покрывала, занавески из тканей европейских и турецких производителей по доступным ценам </p>
+              
+
+              </div>
+              <div className="servic_item">
+                <div className="servic_ic">
+                <img src="" alt="" />
+               </div>
+               <h3 className="servic_tit">Дизайн  Штор</h3>
+               <p className="servic_txt">Наши профессиональные дизайнеры могут выполнить заказ по интерьерному дизайну любой сложности</p>
+              
+
+              </div>
+              <div className="servic_item">
+                <div className="servic_ic">
+                <img src="" alt="" />
+               </div>
+               <h3 className="servic_tit">Готовые  шторы</h3>
+               <p className="servic_txt">Предлагаем уже готовые качественные мебель и шторы по приемлемым ценам. У нас есть сотни моделей на любой вкус. </p>
+              
+
+              </div>
+            </div>
+            <div className="servic_right">
+              <div className="servic_item">
+               <div className="servic_ic">
+                <img src="" alt="" />
+               </div>
+               <h3 className="servic_tit">УСТАНОВКА РИМСКИХ СИСТЕМ</h3>
+               <p className="servic_txt">В короткий срок смонтируем и установим римские системы для Вашего дома/квартиры</p>
+
+              </div>
+              <div className="servic_item">
+              <div className="servic_ic">
+                <img src="" alt="" />
+               </div>
+               <h3 className="servic_tit">Аксессуары и Карнизы</h3>
+               <p className="servic_txt">Помимо мебели и штор наша компания в большом ассортименте предлагает аксессуары высокого качества. Также у нас в наличии и на заказ есть эксклюзивные карнизы.</p>
+
+              </div>
+              <div className="servic_item">
               <div className="servic_ic">
                 <img src="" alt="" />
               </div>
-              <h3 className="servic_tit">Пошив и реставрация штор</h3>
-              <p className="servic_txt">Качественно шьем любую шторы, покрывала, занавески из тканей европейских и турецких производителей по доступным ценам </p>
-              <h3 className="servic_tit">Пошив и реставрация штор</h3>
-              <p className="servic_txt">Качественно шьем любую шторы, покрывала, занавески из тканей европейских и турецких производителей по доступным ценам </p>
+              <h3 className="servic_tit">Монтаж и Установка</h3>
+              <p className="servic_txt">Профессиональные сотрудники нашей компании осуществят монтаж и установку согласно Вашим срокам и требованиям. </p>
 
-              <h3 className="servic_tit">Пошив и реставрация штор</h3>
-              <p className="servic_txt">Качественно шьем любую шторы, покрывала, занавески из тканей европейских и турецких производителей по доступным ценам </p>
-            </div>
+              </div>
 
-           <div className="servic_right">
-            <h3 className="servic_tit">Пошив и реставрация штор</h3>
-              <p className="servic_txt">Качественно шьем любую шторы, покрывала, занавески из тканей европейских и турецких производителей по доступным ценам </p>
 
+             
+              
             </div>
           </div>
         </div>
