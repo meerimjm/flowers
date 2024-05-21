@@ -103,3 +103,23 @@
 .card_left_txt{
     margin-top: 30px;
 }
+.servic_tit1{
+font-size: 40px;
+text-align: center;
+margin-bottom: 40px;
+
+}
+.servic_txt1{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.servic_txt{
+    width: 500px;
+    margin-right: 15px;
+}
+.video{
+ width: 100%;
+}
+
