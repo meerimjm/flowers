@@ -14,16 +14,16 @@ function DeliveryMini() {
 
 						<div class="form_input">
 							<span class="form_tit">Date</span>
-							<input type="text" class="input" placeholder="04/01/2021">
+							<input type="text" class="input" placeholder="04/01/2021"/>
 						</div>
 						<div class="form_input">
 							<span class="form_tit">Time</span>
-							<input type="text" class="input" placeholder="06:30 PM">
+							<input type="text" class="input" placeholder="06:30 PM"/>
 						</div>
 					
 						<div class="form_input form_input_big">
 							<span class="form_tit">Total Person</span>
-							<input type="text" class="input" placeholder="1 Person">
+							<input type="text" class="input" placeholder="1 Person"/>
 						</div>
 						<div class="form_btn">
 							<button class="btn btn_red">Book a Table</button>
