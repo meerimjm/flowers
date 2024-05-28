@@ -32,7 +32,7 @@ function Contacts() {
           
 
      <div class="form_btn">
-      <button class="btn btn_red" type="submit">Send</button>
+      <button class="btn btn_red" type="submit">Отправлять</button>
      </div>
      </div>
 
@@ -43,12 +43,12 @@ function Contacts() {
       <div class="address_in flex">
      <div class="address_card">
        <h4 class="address_tit">Связаться с нами:</h4>
-        <a href="tel:+12345678900" class="address_link">+1-234-567-8900</a>
+        <a href="tel:+(996)705533214" class="address_link">+(996)705533214</a>
       </div>
       <div class="address_card">
-      <h4 class="address_tit">Hours</h4>
-      <p class="address_txt">Mon-Fri: 11am - 8pm , </p>
-      <p class="address_txt"> Sat Sun: 9am - 10pm</p>
+      <h4 class="address_tit">Время работы</h4>
+      <p class="address_txt">с Понедельника по Суботтом: с 9:00 до 17:00</p>
+      <p class="address_txt"> Воскресения: с 9:00 до 15:00</p>
      </div>
      <div class="address_card">
      <h4 class="address_tit">Our Location:</h4>

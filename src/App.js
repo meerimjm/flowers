@@ -52,6 +52,7 @@ function App() {
 
   return (
     <div className='App'>
+      <AppContext.Provider value={{ categories, cart, user, orders }} >
       <Router>
         <Header />
         <CategoryList/>
@@ -70,6 +71,9 @@ function App() {
         </main>
         <Footer />
       </Router>
+
+      </AppContext.Provider>
+     
     </div>
   );
 }
