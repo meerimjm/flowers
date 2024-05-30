@@ -8,7 +8,7 @@ export default function AddProduct({category}) {
     const {user} = useContext(AppContext);
     const [name, setName] = useState ("");
     const [price, setPrice] = useState (0);
-    const [picture, setPicture] = useState (null);
+    const [img, setPicture] = useState (null);
     const [description, setDescription] = useState("");
     const [isSubmitting, setIsSubmitting] = useState (false);
 
@@ -29,12 +29,12 @@ export default function AddProduct({category}) {
     }
     function onFormSumbit(event){
         event.preventDefault();
-        if(!picture){
+        if(!img){
             alert("Please upload an picture");
             return;
         }
         setIsSubmitting(true);
-        uploadProductPhoto(picture)
+        uploadProductPhoto(img)
         .then((pictureUrl)=>
             addDoc(productsCollection,{
                 category:category.id,
@@ -63,16 +63,53 @@ export default function AddProduct({category}) {
     }
     return (
         <div className="AddProduct">
-            <form onSubmit={onFormSumbit}>
-                <h3>Create a new product</h3>
-                <label>
-                    Name 
-                    
-                </label>
-            </form>
+          <form onSubmit={onFormSubmit}>
+            <h3>Create a new product</h3>
+            <label>
+              Name:
+              <input
+                type="text"
+                value={name}
+                name="name"
+                onChange={onChangeName}
+                required
+              />
+            </label>
+            <label>
+              Price:
+              <input
+                type="number"
+                value={price}
+                name="price"
+                step="any"
+                onChange={onChangePrice}
+                min={0}
+                required
+              />
+            </label>
+            <label>
+              Picture:
+              <input
+                type="file"
+                name="img"
+                onChange={onChangePicture}
+                required
+              />
+            </label>
+            <label>
+              Description:
+              <textarea
+                type=""
+                name="description"
+                value={description}
+                onChange={onChangeDescription}
+                required
+              />
+            </label>
+            <button type="submit" disabled={isSubmitting}>{isSubmitting ? "Submitting..." : "Submit"}</button>
+          </form>
         </div>
-    )
-
+      );
 
 
 
