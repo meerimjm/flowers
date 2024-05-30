@@ -11,8 +11,9 @@ function Footer() {
 					<Link to="index.html" className="footer_logo">
 						<img src="img/logo-footer.svg" alt=""/>
 					</Link>
-					<p className="footer_txt">In the new era of technology we look a in the future with certainty and pride
-						to for our company and.</p>
+					<p className="footer_txt">Шторы - это неотъемлемая часть интерьера, они создают настроение, уют и комфорт в Вашем доме. При этом они, безусловно, должны гармонировать с общим стилем вашего интерьера. Шторы, сшитые по индивидуальному заказу, станут изюминкой вашего дома.
+
+</p>
 					<div className="footer_icons flex">
 						<Link to="" className="footer_ic footer_ic__tw">
 							<img src="img/icons/footer_ic__tw.svg" alt=""/>
@@ -34,8 +35,6 @@ function Footer() {
 						<li><Link to="">Home</Link></li>
 						<li><Link to="">About</Link></li>
 						<li><Link to="">Menu</Link></li>
-						<li><Link to="">Pricing</Link></li>
-						<li><Link to="">Blog</Link></li>
 						<li><Link to="">Contact</Link></li>
 						<li><Link to="">Delivery</Link></li>
 					</ul>
@@ -53,7 +52,7 @@ function Footer() {
 					</ul>
 				</div>
 				<div className="footer_imgs">
-					<h4 className="footer_tit">Follow Us On Instagram</h4>
+					<h4 className="footer_tit">Следуйте за нами в Instagram</h4>
 					<div className="footer_img-wrap flex ">
 						<Link to="" className="footer_img"><img src="img/foto-1.jpg" alt=""/></Link>
 						<Link to="" className="footer_img"><img src="img/foto-2.jpg" alt=""/></Link>

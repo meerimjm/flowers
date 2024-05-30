@@ -4,12 +4,13 @@ import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithPopup, signO
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCRIVTTS9EKmZPN774Cpiw1SdFqHKwwkZ0",
-  authDomain: "apple-c6f99.firebaseapp.com",
-  projectId: "apple-c6f99",
-  storageBucket: "apple-c6f99.appspot.com",
-  messagingSenderId: "221216245992",
-  appId: "1:221216245992:web:3f1bbaf2a2e292c13fa15d"
+  apiKey: "AIzaSyD3HUUiXUMYHzTxKXZmTg6LB1UN6KGb64E",
+  authDomain: "salon-shtor-ffe70.firebaseapp.com",
+  projectId: "salon-shtor-ffe70",
+  storageBucket: "salon-shtor-ffe70.appspot.com",
+  messagingSenderId: "909008901619",
+  appId: "1:909008901619:web:03cbb68ff629394b682e86",
+  measurementId: "G-XHT27Q3YPW"
 };
 
 const app = initializeApp(firebaseConfig);
